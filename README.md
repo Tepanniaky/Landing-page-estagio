@@ -5,6 +5,7 @@ Este projeto foi desenvolvido como parte de um processo seletivo para estágio e
 ### 🔗 Demonstração do site
 
 Acesse aqui: [https://tepanniaky.github.io/Landing-page-estagio](https://tepanniaky.github.io/Landing-page-estagio)
+<img src="https://github.com/Tepanniaky/Landing-page-estagio/blob/main/Preview" alt="preview" width="100%" />
 
 ---
 
