@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovation class project</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Innovation Cursos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Trilhas</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>     
+            </nav>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="container">
+        <h2>Bem-vindo a Innovation Cursos</h2>
+        <p>Explore conteudos de tecnologia e inovacao.</p>
+        <div class="search-box">
+         <input type="text" id="searchInput" placeholder="Buscar..."/>
+         <button onclick="buscar()">🔍</button>
+        </div>
+        <p id="searchResult"></p>
+        </div>
+    </section>
+    
+    <section class="carrosel">
+        <h3>Mais buscados</h3>
+        <div class="carousel-container">
+            <div class="carousel-item">
+                <h4>Curso de Backend</h4>
+                <p>Python, JavaScript (com Node.js), Java, PHP, C#, e C++ sem dificuldade</p>
+            </div>
+            <div class="carousel-item">
+                <h4>Curso de Front-End</h4>
+                <p>HTML, CSS e JS na prática</p>
+              </div>
+        </div>
+    </section>
+
+    <section class="carrosel">
+        <h3>Destaques</h3>
+        <div class="carousel-container">
+            <div class="carousel-item">
+                <h4>Curso de Backend</h4>
+                <p>Python, JavaScript (com Node.js), Java, PHP, C#, e C++ sem dificuldade</p>
+            </div>
+            <div class="carousel-item">
+                <h4>Curso de Front-End</h4>
+                <p>HTML, CSS e JS na prática</p>
+              </div>
+              
+        </div>
+        <button id="prevBtn" class="carousel-btn">❮</button>
+        <button id="nextBtn" class="carousel-btn">❯</button>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2025 Tepanniaky. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
